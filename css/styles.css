@@ -12,6 +12,7 @@ font-family: 'Roboto', sans-serif;
   --title-text-color: #212121;
   --primary-text-color: #757575;
   --address-text-color: rgba(255, 255, 255, 0.6);
+  --button-hover-color: #188ce8;
 }
 
 body {
@@ -68,4 +69,36 @@ body {
 
 .list {
   list-style: none;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--footer-background-color);
+}
+
+.hero-title {
+  color: var(--primary-white-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hero-button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--button-hover-color);
 }
