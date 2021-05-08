@@ -190,6 +190,8 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
+
+  cursor: pointer;
 }
 
 .filter-button:hover,
